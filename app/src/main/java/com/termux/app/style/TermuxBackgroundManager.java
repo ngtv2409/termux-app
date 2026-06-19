@@ -175,11 +175,11 @@ public class TermuxBackgroundManager {
         AlertDialog.Builder b = new AlertDialog.Builder(mActivity);
 
         b.setMessage(R.string.title_restore_background_image);
-        b.setPositiveButton(R.string.action_yes, (dialog, id) -> {
+        b.setPositiveButton(android.R.string.yes, (dialog, id) -> {
             notifyBackgroundUpdated(true);
         });
 
-        b.setNegativeButton(R.string.action_no, ((dialog, id) -> {
+        b.setNegativeButton(android.R.string.no, ((dialog, id) -> {
             pickImageFromGallery();
         }));
 

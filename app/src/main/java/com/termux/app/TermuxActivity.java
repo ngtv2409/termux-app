@@ -192,9 +192,9 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
     private static final int CONTEXT_MENU_RESET_TERMINAL_ID = 3;
     private static final int CONTEXT_MENU_KILL_PROCESS_ID = 4;
     private static final int CONTEXT_MENU_STYLING_ID = 5;
-    private static final int CONTEXT_SUBMENU_FONT_AND_COLOR_ID = 11;
-    private static final int CONTEXT_SUBMENU_SET_BACKROUND_IMAGE_ID = 12;
-    private static final int CONTEXT_SUBMENU_REMOVE_BACKGROUND_IMAGE_ID = 13;
+    private static final int CONTEXT_SUBMENU_FONT_AND_COLOR_ID = 12;
+    private static final int CONTEXT_SUBMENU_SET_BACKROUND_IMAGE_ID = 13;
+    private static final int CONTEXT_SUBMENU_REMOVE_BACKGROUND_IMAGE_ID = 14;
     private static final int CONTEXT_MENU_TOGGLE_KEEP_SCREEN_ON = 6;
     private static final int CONTEXT_MENU_HELP_ID = 7;
     private static final int CONTEXT_MENU_SETTINGS_ID = 8;
